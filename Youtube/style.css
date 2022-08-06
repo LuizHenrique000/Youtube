@@ -1,3 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+h3 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
 img:nth-child(2) {
   width: 200px;
 }
@@ -9,6 +20,7 @@ img:nth-child(2) {
 
 .thumbnail {
   width: 100%;
+  border-radius: 3px;
 }
 
 /* .telinha {
@@ -17,10 +29,22 @@ img:nth-child(2) {
   background-color: #838383;
 } */
 
+.user {
+  border-radius: 50%;
+}
+
 .card_container {
-  width: 300px;
-  height: 150px;
-  background-color: red;
+  width: 100px;
+  height: 200px;
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.container {
+  display: flex;
+  background-color: #838383;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 /* .card1 {
@@ -38,8 +62,8 @@ img:nth-child(2) {
   height: 150px;
 } */
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 300px) {
   .card_container {
-    width: 400px;
+    width: 300px;
   }
 }
